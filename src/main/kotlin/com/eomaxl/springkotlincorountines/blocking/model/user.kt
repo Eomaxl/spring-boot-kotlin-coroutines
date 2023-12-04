@@ -17,5 +17,4 @@ data class UserJpa(
     val emailVerified:Boolean,
     @field:Column(name="avatar_url")
     val avatarUrl: String?) {
-
 }
